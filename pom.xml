@@ -1,0 +1,39 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <!-- Informations sur le projet -->
+    <groupId>com.example</groupId>
+    <artifactId>ice-project</artifactId>
+    <version>1.0.0</version>
+    <name>My Ice Project</name>
+
+    <!-- Dépendances -->
+    <dependencies>
+        <dependency>
+            <groupId>com.zeroc</groupId>
+            <artifactId>ice</artifactId>
+            <version>3.7.10</version> <!-- Assurez-vous de spécifier la version appropriée -->
+        </dependency>
+        <!-- Ajoutez d'autres dépendances ici si nécessaire -->
+    </dependencies>
+
+    <!-- Plugins Maven -->
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.1</version> <!-- Assurez-vous de spécifier la version appropriée -->
+                <configuration>
+                    <source>19</source> <!-- Spécifiez ici la version de Java à utiliser -->
+                    <target>19</target> <!-- Spécifiez ici la version de Java cible -->
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+    <!-- Autres configurations Maven -->
+    <!-- Vous pouvez ajouter d'autres configurations Maven ici, par exemple des profils, des propriétés, etc. -->
+
+</project>
